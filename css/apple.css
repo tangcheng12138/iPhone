@@ -1,0 +1,647 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.clearFix:after{
+    content: "";
+    display: block;
+    height: 0;
+    clear:both;
+    visibility: hidden;
+}
+.clearFix{
+    *zoom: 1;
+}
+embed{
+    cursor: pointer;
+}
+body{
+
+}
+.openAnimation{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+    /*position: relative;*/
+}
+
+.openAnimation > .inter{
+    position: fixed;
+    margin-top: 400px;
+    margin-left: 530px;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: 400;
+    color: red;
+    background-color: rgba(50,56,64,0);
+    border: 1px solid red;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.openAnimation > .inter:hover{
+
+}
+
+nav{
+    height:44px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.8);
+    position: fixed;
+    width: 100%;
+    box-shadow: 3px 0 3px 0 rgba(0,0,0,.5);
+    z-index: 1;
+}
+nav ul{
+
+}
+nav ul li{
+    float: left;
+    margin: 11px 40px;
+    transition: all 3s;
+}
+
+nav ul li a{
+    color: #f5f5f7;
+    font-size: 14px;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    opacity: .8;
+}
+nav ul li a:hover{
+   opacity: 1;
+}
+
+nav ul:nth-child(1){
+    margin-left: 120px;
+}
+
+.newPhone{
+    background-color: #000;
+    color: white;
+    padding: 50px; text-align: center;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.newPhone > .new{
+    color: #bf4800;
+}
+
+.newPhone > .iPhoneSE{
+    font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 56px;
+    font-weight: 600;
+}
+
+.newPhone > .newText{
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.newPhone > .newMoney{
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.newPhone > .newDiscount{
+    color: #f5f5f7;
+    opacity: .8;
+    margin-top: 10px;
+}
+
+.newPhone > .newAbout{
+    margin-top: 20px;
+    font-size: 21px;
+}
+
+.newPhone > .newAbout a:after{
+    content: url("../img/right.svg");
+    width: 10px;
+    height: 10px;
+}
+
+.newPhone > .newAbout a{
+    margin-right: 20px;
+}
+
+.newPhone > .newImage{
+    margin-top: -180px;
+}
+
+.iPhone11Part{
+    text-align: center;
+    margin-top: 50px;
+}
+.iPhone11Part > .iPhone11{
+    font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 56px;
+    font-weight: 600;
+    /*color: black;*/
+}
+
+.iPhone11Part > .iPhone11Text{
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.iPhone11Part > .iPhone11Discount{
+    color: #86868b;
+    margin-top: 10px;
+}
+.iPhone11Part > .iPhone11About a{
+    margin-right: 25px;
+    font-size: 21px;
+}
+.iPhone11Part > .iPhone11About a:after{
+    content: url("../img/right.svg");
+    width: 10px;
+    height: 10px;
+}
+
+.iPhone11Part > .iPhone11About{
+    margin-top: 15px;
+}
+
+.iPhone11Part > .iPhone11Image{
+    margin-left: -350px;
+    overflow: hidden;
+}
+
+.iPhone11ProPart{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 50px;
+}
+
+.iPhone11ProPart > .iPhone11Pro{
+    font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 56px;
+    font-weight: 600;
+    /*color: black;*/
+}
+
+.iPhone11ProPart > .iPhone11ProText{
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.iPhone11ProPart > .iPhone11ProDiscount{
+    color: #86868b;
+    margin-top: 10px;
+}
+.iPhone11ProPart > .iPhone11ProAbout a{
+    margin-right: 25px;
+    font-size: 21px;
+}
+
+.iPhone11ProPart > .iPhone11ProAbout{
+    margin-top: 15px;
+}
+
+.iPhone11ProPart > .iPhone11ProAbout a:after{
+    content: url("../img/right.svg");
+    width: 10px;
+    height: 10px;
+}
+
+.iPhone11ProPart > .iPhone11ProImage{
+    margin-left: -600px;
+    margin-top: -180px;
+    overflow: hidden;
+}
+
+.iPhoneProduce > div{
+    margin-left: 20px;
+    margin-top: 20px;
+    /*border: 1px solid red;*/
+}
+.iPhoneProduce > div:nth-child(odd){
+    float: left;
+}
+
+.iPhoneProduce > div:nth-child(even){
+    float: right;
+}
+
+.iPhoneProduce  > .wwd{
+    background-color: black;
+    padding: 30px;
+    text-align: center;
+}
+
+.iPhoneProduce  > .wwd > .wwdImage{
+
+}
+
+.iPhoneProduce  > .wwd > .wwdText{
+    color: white;
+}
+
+.iPhoneProduce  > .wwd > .wwdAbout{
+    margin-top: 10px;
+}
+
+.iPhoneProduce  > .wwd > .wwdAbout a{
+    font-size: 12px;
+}
+.iPhoneProduce  > .wwd > .wwdAbout a:after{
+    content: url("../img/right (8).svg");
+}
+
+.iPhoneProduce  > .iWatch{
+    padding: 50px 80px 0 80px;
+    text-align: center;
+    background-color: #fbfbfd;
+}
+.iPhoneProduce  > .iWatch > .iWatchImg1{
+
+}
+
+.iPhoneProduce  > .iWatch > .iWatchText{
+   font-size:20px ;
+}
+.iPhoneProduce  > .iWatch > .iWatchAbout{
+   margin-top: 13px;
+}
+.iPhoneProduce  > .iWatch > .iWatchAbout a{
+    font-size: 12px;
+}
+.iPhoneProduce  > .iWatch > .iWatchAbout a:after{
+    content: url("../img/right (8).svg");
+    width: 10px;
+    height: 10px;
+}
+
+.iPhoneProduce  > .iWatch > .iWatchImg2{
+    margin-top: 11px;
+}
+
+.iPhoneProduce  > .macBookPro{
+    text-align: center;
+    color: white;
+    background-color: #131218;
+    padding: 30px;
+    width: 560px;
+
+}
+
+.iPhoneProduce  > .macBookPro > .macBookProText1{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.iPhoneProduce  > .macBookPro > .macBookProText2{
+    font-size: 21px;
+    font-weight: 300;
+}
+
+.iPhoneProduce  > .macBookPro > .macBookProImg{
+    margin-left: -360px;
+    margin-top: -160px;
+}
+.iPhoneProduce  > .macBookPro > .macBookProAbout{
+    margin-top: 20px;
+}
+.iPhoneProduce  > .macBookPro > .macBookProAbout a{
+    margin-right: 25px;
+    font-size: 12px;
+}
+.iPhoneProduce  > .macBookPro > .macBookProAbout a:after{
+    content: url("../img/right (8).svg");
+    width: 10px;
+    height: 10px;
+}
+
+.iPhoneProduce > .motherGift{
+    background-color: #fbfbfd;
+    color: black;
+    text-align: center;
+    padding: 30px;
+    position: relative;
+    width: 500px;
+    height: 519px;
+    overflow: hidden;
+}
+
+.iPhoneProduce > .motherGift > .motherGiftText1{
+    font-size: 40px;
+    font-weight: 600;
+}
+.iPhoneProduce > .motherGift > .motherGiftText2{
+    font-size: 60px;
+    font-weight: 800;
+    color: #87868c;
+}
+.iPhoneProduce > .motherGift > .motherGiftText3{
+    font-size: 100px;
+    font-weight: 800;
+    color: #ffbe30;
+    margin-bottom: -100px;
+}
+.iPhoneProduce > .motherGift > .motherGiftAbout a{
+    font-size: 12px;
+}
+.iPhoneProduce > .motherGift > .motherGiftAbout a:after{
+    /*margin-bottom: -60px;*/
+    content: url("../img/right (8).svg");
+    width: 10px;
+    height: 10px;
+}
+.iPhoneProduce > .motherGift > .motherGiftImg{
+    position: absolute;
+    left: -350px;
+     bottom: 0;
+}
+
+.iPhoneProduce > .iPadPro{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 30px;
+    width: 562px;
+    height: 518px;
+    position: relative;
+    overflow: hidden;
+}
+.iPhoneProduce > .iPadPro > .iPadProAbout{
+    margin-top: 10px;
+}
+.iPhoneProduce > .iPadPro > .iPadProAbout a{
+    font-size: 12px;
+
+}
+.iPhoneProduce > .iPadPro > .iPadProAbout a:after{
+    content: url("../img/right (8).svg");
+    width: 10px;
+    height: 10px;
+}
+
+.iPhoneProduce > .iPadPro > .iPadProImg2{
+    position: absolute;
+    bottom: -53px;
+    left: -490px;
+    /*margin-left: -750px;*/
+    /*margin-top: -400px;*/
+}
+
+.iPhoneProduce > .iPadPro > .iPadProText{
+    color: #06c;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.iPhoneProduce > .airPods{
+    text-align: center;
+    background-color: #fbfbfd;
+    padding: 30px;
+    width: 500px;
+    height: 519px;
+    overflow: hidden;
+}
+
+.iPhoneProduce > .airPods > .airPodsText1{
+    color: #d38352;
+}
+.iPhoneProduce > .airPods > .airPodsText2{
+    font-size: 40px;
+    font-weight: 500;
+}
+.iPhoneProduce > .airPods > .airPodsText3{
+    font-size: 20px;
+    font-weight: 400;
+}
+.iPhoneProduce > .airPods > .airPodsAbout{
+    margin-top: 10px;
+}
+.iPhoneProduce > .airPods > .airPodsAbout a{
+    font-size: 12px;
+}
+.iPhoneProduce > .airPods > .airPodsAbout a:after{
+    content: url("../img/right (8).svg");
+    width: 10px;
+    height: 10px;
+}
+.iPhoneProduce > .airPods > .airPodsImg{
+    margin-left: -1100px;
+    margin-top: -330px;
+}
+footer{
+    background-color: #fbfbfd;
+    margin-top: 1815px;
+    padding-top: 20px;
+}
+footer > .footerContain{
+    width: 980px;
+    /*height: 500px;*/
+    margin-left: auto;
+    margin-right: auto;
+    /*overflow: hidden;*/
+    border: 0px solid red;
+}
+footer > .footerContain > .footerText1{
+    font-size: 11px;
+    font-weight: 400;
+    color: #86868b;
+}
+
+footer > .footerContain > .footerText2{
+    font-size: 11px;
+    font-weight: 400;
+    color: #86868b;
+    margin-top: 10px;
+}
+
+footer > .footerContain > hr{
+    height: 0;
+    border: 1px solid #dddde1;
+    margin-top: 20px;
+}
+
+footer > .footerContain > .appleSever{
+    margin-top: 20px;
+    position: relative;
+}
+
+footer > .footerContain > .appleSever h3{
+    font-size: 15px;
+    font-weight: 400;
+}
+footer > .footerContain > .appleSever ul li{
+    margin-top: 10px;
+}
+footer > .footerContain > .appleSever ul li a{
+    font-size: 12px;
+
+}
+
+footer > .footerContain > .appleSever ul li a:hover{
+    text-decoration: underline;
+}
+
+footer > .footerContain > .appleSever .sever{
+    position: absolute;
+    left: 200px;
+    top:0;
+}
+
+footer > .footerContain > .appleSever .count{
+    position: absolute;
+    left: 200px;
+    top:160px;
+}
+
+footer > .footerContain > .appleSever .store{
+    position: absolute;
+    left: 400px;
+    top:0;
+}
+
+footer > .footerContain > .appleSever .business{
+    position: absolute;
+    left: 600px;
+    top:0;
+}
+
+footer > .footerContain > .appleSever .education{
+    position: absolute;
+    left: 600px;
+    top:160px;
+}
+
+footer > .footerContain > .appleSever .worth{
+    position: absolute;
+    left: 800px;
+    top:0;
+}
+
+footer > .footerContain > .appleSever .about{
+    position: absolute;
+    left: 800px;
+    top:200px;
+}
+
+footer > .footerContain > .severText{
+    margin-top: 100px;
+    font-size: 12px;
+    color: #86868b;
+}
+
+footer > .footerContain > .severText a:hover{
+    text-decoration: underline;
+}
+
+footer > .footerContain > .line{
+    border: 1px solid #dddde1;
+    margin-top: 15px;
+}
+footer > .footerContain > .footerLogo{
+
+    padding: 10px 0;
+}
+footer > .footerContain > .footerLogo div:nth-child(1){
+    color: #86868b;
+    font-size: 15px;
+}
+
+footer > .footerContain > .footerLogo div:nth-child(2){
+    color: #9d8f86;
+    font-size: 15px;
+    margin-top: 10px;
+    /*margin-bottom: 50px;*/
+}
+footer > .footerContain > .footerLogo ul{
+    margin-left: 350px;
+    margin-top: -50px;
+}
+footer > .footerContain > .footerLogo ul li{
+    float: left;
+}
+
+footer > .footerContain > .footerLogo ul li a{
+    font-size: 12px;
+    margin-right: 20px;
+}
+
+footer > .footerContain > .footerLogo ul li a:hover{
+    text-decoration: underline;
+}
+
+footer > .footerContain > .footerLogo ul li:after{
+    border: 1px solid red;
+    width: 1px;
+    height: 12px;
+}
+.macNav{
+    height: 90px;
+    width: 100%;
+    background-color: #f9f9fa;
+    padding: 30px;
+}
+.macNav ul{
+   /*margin-top: 20px;*/
+}
+.macNav ul li{
+    float:left;
+    margin-right: 70px;
+    margin-left:20px;
+    position: relative;
+    /*display: inline-block;*/
+}
+
+.macNav ul li a span{
+    position: absolute;
+    font-size: 11px;
+    left: -5px;
+    bottom: -15px;
+    white-space: nowrap;
+}
+.macNav ul li a .description{
+    position: absolute;
+    left: 15px;
+    bottom: -18px;
+}
+
+.sideBar{
+    background-color: white;
+    width: 300px;
+    height: 532px;
+    position: absolute;
+    right: -300px;
+    top: 46px;
+
+}
+
+#bag :hover{
+
+}
+
+@keyframes liAnimations {
+    0%{
+       right: -300px;
+    }
+    100%{
+        right: 0;
+    }
+}
+
+@keyframes liAnimations1 {
+    0%{
+        right: 0;
+    }
+    100%{
+        right: -300px;
+    }
+}
